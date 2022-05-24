@@ -323,3 +323,49 @@ document.write("You will need " + result + " choclate chips to last you until th
 
 //chp # 6//
 //question 1//
+
+//question 2//
+var a = 2, b = 1 ;
+var result = --a - --b + ++b + b-- ;
+document.write("Result is " + result) ;
+
+//question 3//
+var name = prompt("Enter Your Name") ;
+alert("Your Name is " + name)
+
+//question 4//
+var uSer = +prompt("Enter a number") ;
+var taBLe = 5
+var vaLue = 1
+var result = taBLe * vaLue
+document.write(taBLe + " * " + vaLue + " = " + result +"<br><br>")
+
+//question 5//
+document.write("Subject Total Marks Obtained Marks Percentage <br><br>")
+
+var uSer = prompt("Enter First subject name") ;
+var obtained_marks = +prompt("Enter Obtained Marks") ;
+
+document.write (uSer +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write("100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks /100 * 100 +"% <br>")
+
+var uSer = prompt("Enter second subject name") ;
+var obtained_marks = +prompt("Enter Obtained Marks") ;
+
+document.write (uSer +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write("100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks /100 * 100 +"% <br>")
+
+
+var uSer = prompt("Enter third subject name") ;
+var obtained_marks = +prompt("Enter Obtained Marks") ;
+
+document.write (uSer +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write("100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+document.write(obtained_marks /100 * 100 +"%")
+
+
