@@ -321,8 +321,13 @@ document.write("You will need " + result + " choclate chips to last you until th
 
 
 
-//chp # 6//
+//chp # 6-9//
 //question 1//
+document.write("<h2>Result</h2> <br>The Value of a is: 10 <br><br>") ;
+document.write("The value of ++a is: 11 <br>Now the value of a is: 11 <br><br>") ;
+document.write("The value of a++ is: 11 <br>Now the value of a is: 12 <br><br>") ;
+document.write("The value of --a is: 11 <br>Now the value of a is: 11 <br><br>") ;
+document.write("The value of --a is: 11 <br>Now the value of a is: 10 <br><br>") ;
 
 //question 2//
 var a = 2, b = 1 ;
