@@ -374,3 +374,279 @@ document.write(obtained_marks +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 document.write(obtained_marks /100 * 100 +"%")
 
 
+// chp # 9-11//
+//question 1//
+var city = prompt ("Enter City Name");
+if (city === "Karachi"){
+    alert ("Welcome to the City of Light")
+}
+
+//question 2//
+var gender = prompt ("Enter Gender");
+if (gender === "male"){
+    alert ("Good Morning Sir")
+}
+if (gender === "female"){
+    alert ("Good Morning Ma,am")
+}
+
+//question 3//
+var signal_color = prompt ("Enter Signal Color");
+if (signal_color === "red"){
+    alert ("Must Stop")
+}
+if (signal_color === "yellow"){
+    alert ("Ready to Move")
+}
+if (signal_color === "green"){
+    alert ("Move Now")
+}
+
+//question 4//
+var fuel = prompt ("Enter fuel in litres");
+if (fuel <= "0.25litres" ){
+    alert ("Please refill the fuel in your car")
+}
+
+//question 5//
+var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+}
+
+
+var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+
+
+var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+
+
+
+if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+
+
+
+if("car" < "cat"){
+alert("car is smaller than cat");
+}
+
+
+//question 6//
+document.write("<h2>Mark Sheet</h2> <br><br>") ;
+
+var total_marks = 300 ;
+
+var obtained_marks1 = +prompt ("Enter First Subject Marks") ;
+var obtained_marks2 = +prompt ("Enter Second Subject Marks") ;
+var obtained_marks3 = +prompt ("Enter Third Subject Marks") ;
+
+var result = (obtained_marks1 + obtained_marks2 + obtained_marks3) ;
+var result2 = (result / total_marks * 100) ;
+
+document.write("Total Marks = 300" + "<br>");
+document.write("Obtained Marks = " + result + "<br>") ;
+document.write("Percentage = " + result2 + "<br>") ;
+
+if (result2 >= 80){
+    document.write("Grade = Aone <br>")
+}
+if (result2 <= 79){
+    document.write("Grade = A <br>")
+}
+if (result2 <= 69){
+    document.write("Grade = B <br>")
+}
+if (result2 <= 60){
+    document.write("Grade = Fail <br>")
+}
+
+if (result2 >= 80){
+    document.write("Remarks = Exellent")
+}
+if (result2 <= 79){
+    document.write("Remarks = Good")
+}
+if (result2 <= 69){
+    document.write("Remarks = You need to improve")
+}
+if (result2 <= 60){
+    document.write("Remarks = Sorry")
+}
+
+//question 7//
+var secret_number = +prompt ("Guess The Secret Number") ;
+ if (secret_number === 7){
+     alert("Bingo! Correct Answer")
+ }
+ else if(secret_number === 1 , 2 , 3 , 4 , 5 , 6 , 8 , 9 , 10){
+     alert("Close enough to correct answer")
+ }
+
+//question 8//
+
+
+//question 9//
+
+
+//question 10//
+var temperature = +prompt ("Enter Temperature") ;
+
+if (temperature >= 36){
+    alert ("It is too hot outside")
+}
+else if (temperature <= 35){
+    alert ("The weather today is normal")
+}
+else if (temperature <= 20){
+    alert ("Today's weather is cool")
+}
+else if (temperature <= 10){
+    alert ("OMG today's weather is so cool")
+}
+
+//question 11//
+var num1 = +prompt ("Enter First Number") ;
+var num2 = +prompt ("Enter Second Number") ;
+var opt = prompt ("Enter Your Operator") ;
+
+if (opt === "+" ) {
+    console.log(num1 + num2)
+}
+if (opt === "-" ){
+    console.log(num1 - num2)
+}
+if (opt === "*" ){
+    console.log(num1 * num2)
+}
+if (opt === "/" ){
+    console.log(num1 / num2)
+}
+if (opt === "%" ){
+    console.log(num1 % num2)
+}
+
+
+
+//chp 12-13//
+//question 1//
+var character = prompt ("Type Alphaber or Number")
+
+if (character >= "A" && character <= "Z") {
+    alert ("Upper case")
+}
+else if (character >= "a" && character <= "z") {
+    alert ("lower case")
+}
+else {
+    alert("Number") 
+}
+
+//question 2//
+
+
+//question 3//
+var num = +prompt ("Enter Number") ;
+
+if (num === 0) {
+    alert ("The number you type is Zero")
+}
+else if (num > 0) {
+    alert ("The number you type is Positive")
+}
+else if (num <0) {
+
+    alert ("The number you type is Negitive")
+}
+
+//question 4//
+var user = prompt("Enter vowels") ;
+
+if (user === "a") {
+    alert ("True")
+}
+else if (user === "e") {
+    alert ("True")
+}
+else if (user === "i") {
+    alert ("True")
+}
+else if (user === "o") {
+    alert ("True")
+}
+else if (user === "u") {
+    alert ("True")
+}
+
+else {
+    alert("false")
+}
+
+//question 5//
+var password = "karachi123" ;
+var user = prompt("Enter Your Password") ;
+
+if (user === "") {
+    alert ("Type Your Password")
+}
+else if (user === "karachi123") {
+    alert ("Correct Password")
+}
+else {
+    alert("Incorrect Password")
+}
+
+//question 6//
+var greeting;
+var hour = 13;
+
+if (hour < 18) {
+greeting = "Good day";
+}
+
+else{ 
+greeting = "Good evening";
+}
+
+//question 7//
+var time = prompt ("Enter Time")
+
+if (time >= 0000 && time<= 1200){
+    alert("Good Morning")
+}
+else if (time >= 1200 && time<= 1700){
+    alert("Good Afternoon")
+}
+else if (time >= 1700 && time<= 2100){
+    alert("Good Evening")
+}
+else if (time >= 2100 && time<= 2400){
+    alert("Good Night")
+}
