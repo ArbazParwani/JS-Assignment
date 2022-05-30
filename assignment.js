@@ -650,3 +650,94 @@ else if (time >= 1700 && time<= 2100){
 else if (time >= 2100 && time<= 2400){
     alert("Good Night")
 }
+
+
+//chp 14-16 //
+//question 1 //
+var student_name = [] ;
+
+//question 2 //
+var student_name = new student();
+
+//question 3 //
+var city = "Karachi" ;
+
+//question 4 //
+var number = 10 ;
+
+//question 5 //
+var boolean = "true" ;
+var boolean = "false" ;
+
+//question 6 //
+var mixedaRRay = ["Karachi" , "Lahore" , 2 ,5];
+
+//question 7 //
+var eduCAtion = new Array() ; 
+eduCAtion[0] = "SSC" ; 
+eduCAtion[1] = "HSC"
+eduCAtion[2] = "BCS"
+eduCAtion[3] = "BS"
+eduCAtion[4] = "BCOM"
+eduCAtion[5] = "MS"
+eduCAtion[6] = "M.Phill"
+eduCAtion[7] = "PhD"
+console.log (eduCAtion) ;
+
+//qustion 8 //
+var sTudenTs = ["SHAHZAIB" , "QADEER" , "AMMAN"] ;
+var marks = [300 , 350 , 380] ;
+var total_marks = 500 ;
+
+console.log(sTudenTs + marks)
+
+var result = 300 / 500 * 100 ;
+var result2 = 350 / 500 * 100 ;
+var result3 = 380 / 500 * 100 ;
+
+document.write ("Score of Shahzaib is 300 Percentage is " + result + "% <br>")
+document.write ("Score of Qadeer is 350 Percentage is " + result2 + "% <br>")
+document.write ("Score of Amman is 380 Percentage is " + result3 + "% ")
+
+// question 9//
+
+// question 10//
+
+// question 11//
+document.write("<h1>Cities Name</h1>") ;
+var cities = ["Karachi" , "Lahore" , "Quetta" , "Peshawar" , "Islamabad"] ;
+document.write (cities) ;
+
+document.write("<h1>Selected Cities Name</h1>") ;
+document.write(cities [4] ) ;
+
+// question 12//
+document.write ("Array: <br>") ;
+var cat = ["this" , "is", "my" , "cat <br><br>"] ;
+console.log (cat) ;
+document.write (cat) ;
+  
+document.write ("string: <br>") ;
+var cat = "this is my cat" ;
+document.write(cat) ;
+
+// question 13//
+var  fifo= ["keyboard" , "mouse", "printer" , "monitor <br><br>"] ;
+document.write (fifo) ;
+
+document.write ("out: " + fifo[0] + "<br><br>") ;
+document.write ("out: " + fifo[1] + "<br><br>") ;
+document.write ("out: " + fifo[2] + "<br><br>") ;
+document.write ("out: " + fifo[3]) ;
+
+// question 14//
+var  fifo= ["keyboard" , "mouse", "printer" , "monitor <br><br>"] ;
+document.write (fifo) ;
+
+document.write ("out: " + fifo[3]) ;
+document.write ("out: " + fifo[2] + "<br><br>") ;
+document.write ("out: " + fifo[1] + "<br><br>") ;
+document.write ("out: " + fifo[0]) ;
+
+
+// question 15//
